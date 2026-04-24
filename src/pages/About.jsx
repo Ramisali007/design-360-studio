@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import './About.css';
 
 // Import image from "about-us" folder
-import aboutImg from '../assets/about-us/about us.jpg';
+import aboutImg from '../assets/about-us/about-team.jpg';
 
 const About = () => {
   return (
