@@ -1,0 +1,81 @@
+.policy-page {
+  padding-bottom: 8rem;
+}
+
+.policy-content-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 5rem;
+  margin-top: 4rem;
+  align-items: start;
+}
+
+.policy-text section {
+  margin-bottom: 3rem;
+}
+
+.policy-text h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+.policy-text p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+}
+
+.policy-image-container {
+  position: sticky;
+  top: 150px;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.05);
+}
+
+.policy-image {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  display: block;
+}
+
+.image-overlay-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 3rem;
+  background: linear-gradient(transparent, rgba(0,0,0,0.9)); /* Darker gradient */
+  color: white;
+}
+
+.image-overlay-text h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: white; /* Force white color for visibility */
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.image-overlay-text p {
+  opacity: 1; /* Increase opacity */
+  font-size: 1rem;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+@media (max-width: 1024px) {
+  .policy-content-grid {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+  
+  .policy-image-container {
+    position: static;
+  }
+  
+  .policy-image {
+    height: 400px;
+  }
+}
