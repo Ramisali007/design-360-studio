@@ -5,15 +5,15 @@ import { motion } from 'framer-motion';
 import './Home.css';
 
 // Import assets
-import heroVideo from '../assets/landing page/[Hero Showreel Video Placeholder].mp4';
-import archImg from '../assets/landing page/[Image Architecture].jpg';
-import realEstateImg from '../assets/landing page/[Image Real Estate].jpg';
-import productImg from '../assets/landing page/[Image Product & Brand].jpg';
-import mediaImg from '../assets/landing page/media and entertainment .jpg';
-import feat1 from '../assets/landing page/Featured Project 1.jpg';
-import feat2 from '../assets/landing page/Featured Project 2.jpg';
-import feat3 from '../assets/landing page/Featured Project 3.jpg';
-import feat4 from '../assets/landing page/Featured Project 4.jpg';
+import heroVideo from '../assets/landing-page/hero-showreel.mp4';
+import archImg from '../assets/landing-page/architecture-image.jpg';
+import realEstateImg from '../assets/landing-page/real-estate.jpg';
+import productImg from '../assets/landing-page/product-brand.jpg';
+import mediaImg from '../assets/landing-page/media-entertainment.jpg';
+import feat1 from '../assets/landing-page/featured-1.jpg';
+import feat2 from '../assets/landing-page/featured-2.jpg';
+import feat3 from '../assets/landing-page/featured-3.jpg';
+import feat4 from '../assets/landing-page/featured-4.jpg';
 
 const Home = () => {
   const services = [

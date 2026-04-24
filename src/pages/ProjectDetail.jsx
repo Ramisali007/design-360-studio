@@ -5,14 +5,14 @@ import { ArrowLeft } from 'lucide-react';
 import './ProjectDetail.css';
 
 // Import images (same as in Works.jsx)
-import work1 from '../assets/work page/pexels-adrien-olichon-1257089-3137071.jpg';
-import work2 from '../assets/work page/pexels-aysegul-aytoren-46790226-12257034.jpg';
-import work3 from '../assets/work page/pexels-eshwar-charan-2148201627-30057909.jpg';
-import work4 from '../assets/work page/pexels-happy-guy-2154039137-35239278.jpg';
-import work5 from '../assets/work page/pexels-holmboe-35568328.jpg';
-import work6 from '../assets/work page/pexels-jan-van-der-wolf-11680885-34054383.jpg';
-import work7 from '../assets/work page/pexels-nils-rotura-2157795908-35011638.jpg';
-import work8 from '../assets/work page/pexels-sudden-click-25-2149953593-36734904.jpg';
+import work1 from '../assets/work-page/pexels-adrien-olichon-1257089-3137071.jpg';
+import work2 from '../assets/work-page/pexels-aysegul-aytoren-46790226-12257034.jpg';
+import work3 from '../assets/work-page/pexels-eshwar-charan-2148201627-30057909.jpg';
+import work4 from '../assets/work-page/pexels-happy-guy-2154039137-35239278.jpg';
+import work5 from '../assets/work-page/pexels-holmboe-35568328.jpg';
+import work6 from '../assets/work-page/pexels-jan-van-der-wolf-11680885-34054383.jpg';
+import work7 from '../assets/work-page/pexels-nils-rotura-2157795908-35011638.jpg';
+import work8 from '../assets/work-page/pexels-sudden-click-25-2149953593-36734904.jpg';
 
 const projectsData = {
   '1': {

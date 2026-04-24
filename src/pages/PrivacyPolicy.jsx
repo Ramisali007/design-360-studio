@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import './PrivacyPolicy.css';
 
 // Import some assets to make the page look good
-import policyImg from '../assets/landing page/[Image Architecture].jpg';
+import policyImg from '../assets/landing-page/architecture-image.jpg';
 
 const PrivacyPolicy = () => {
   return (
@@ -16,7 +16,7 @@ const PrivacyPolicy = () => {
           transition={{ duration: 0.8 }}
         >
           <h1>Privacy Policy</h1>
-          <p>Your privacy is important to us. Here is how we handle your data.</p>
+          <p>How we handle and protect your information.</p>
         </motion.div>
 
         <div className="policy-content-grid">
@@ -27,28 +27,23 @@ const PrivacyPolicy = () => {
             transition={{ delay: 0.2, duration: 0.8 }}
           >
             <section>
-              <h2>1. Introduction</h2>
-              <p>At Design 360°, we are committed to protecting the privacy and security of our clients and website visitors. This Privacy Policy explains how we collect, use, and safeguard your personal information when you use our services or visit our website.</p>
+              <h2>Information Collection</h2>
+              <p>We collect information that you provide directly to us when you request a proposal or contact us. This may include your name, email address, and project details. We use this information solely to communicate with you and provide our services.</p>
             </section>
 
             <section>
-              <h2>2. Information We Collect</h2>
-              <p>We may collect personal information such as your name, email address, and company details when you contact us for proposals or project inquiries. We also collect non-personal data through cookies to improve your browsing experience.</p>
+              <h2>Data Usage</h2>
+              <p>Your data is used to improve our services and respond to your inquiries. We do not sell or share your personal information with third parties for marketing purposes. All project-related data is handled with strict confidentiality.</p>
             </section>
 
             <section>
-              <h2>3. How We Use Your Information</h2>
-              <p>Your information is used solely for providing our visual production services, communicating about your projects, and improving our internal processes. We never sell or share your data with third parties for marketing purposes.</p>
+              <h2>Security</h2>
+              <p>We implement industry-standard security measures to protect your information. While no method of transmission over the internet is 100% secure, we strive to use commercially acceptable means to protect your personal data.</p>
             </section>
 
             <section>
-              <h2>4. Data Security</h2>
-              <p>We implement industry-standard security measures to protect your personal information from unauthorized access, alteration, or disclosure. All project files and communications are stored on secure, encrypted servers.</p>
-            </section>
-
-            <section>
-              <h2>5. Contact Us</h2>
-              <p>If you have any questions about our privacy practices, please contact us at hello@design360.global.</p>
+              <h2>Your Rights</h2>
+              <p>You have the right to request access to the information we hold about you or ask for its deletion. If you have any questions about your privacy, please contact us at hello@design360.global.</p>
             </section>
           </motion.div>
 
@@ -58,7 +53,7 @@ const PrivacyPolicy = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.4, duration: 0.8 }}
           >
-            <img src={policyImg} alt="Privacy at Design 360" className="policy-image" />
+            <img src={policyImg} alt="Privacy and Security" className="policy-image" />
             <div className="image-overlay-text">
               <h3>Secure & Professional</h3>
               <p>Your data is as safe as your vision.</p>

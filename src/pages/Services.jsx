@@ -4,9 +4,9 @@ import './Services.css';
 
 // Import videos from "services" folder
 import archVideo from '../assets/services/architecture.mp4';
-import realEstateVideo from '../assets/services/real estate.mp4';
-import productVideo from '../assets/services/product brand.mp4';
-import mediaVideo from '../assets/services/Media & Entertainment.mp4';
+import realEstateVideo from '../assets/services/real-estate.mp4';
+import productVideo from '../assets/services/product-brand.mp4';
+import mediaVideo from '../assets/services/media-entertainment.mp4';
 
 const Services = () => {
   const servicesList = [

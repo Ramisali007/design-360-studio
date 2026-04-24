@@ -2,8 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import './About.css';
 
-// Import image from "about us" folder
-import aboutImg from '../assets/about us/about us.jpg';
+// Import image from "about-us" folder
+import aboutImg from '../assets/about-us/about us.jpg';
 
 const About = () => {
   return (
