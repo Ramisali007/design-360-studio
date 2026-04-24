@@ -8,12 +8,6 @@ import realEstateVideo from '../assets/services/real-estate.mp4';
 import productVideo from '../assets/services/product-brand.mp4';
 import mediaVideo from '../assets/services/media-entertainment.mp4';
 
-// Import posters from "landing-page" folder
-import archPoster from '../assets/landing-page/architecture-image.jpg';
-import realEstatePoster from '../assets/landing-page/real-estate.jpg';
-import productPoster from '../assets/landing-page/product-brand.jpg';
-import mediaPoster from '../assets/landing-page/media-entertainment.jpg';
-
 const Services = () => {
   const servicesList = [
     {
@@ -21,32 +15,28 @@ const Services = () => {
       title: "Architecture",
       description: "We create evocative architectural visualizations that capture the essence of your design. From high-end residential to large-scale commercial projects, our imagery tells a compelling story.",
       features: ["Exterior Visualization", "Interior Visualization", "Masterplan & Aerial", "Concept Design"],
-      video: archVideo,
-      poster: archPoster
+      video: archVideo
     },
     {
       id: "real-estate",
       title: "Real Estate",
       description: "Elevating property marketing with stunning visual content. We provide everything needed for a successful real estate campaign before the first brick is laid.",
       features: ["Marketing CGI", "Virtual Tours", "Animation", "Floor Plans"],
-      video: realEstateVideo,
-      poster: realEstatePoster
+      video: realEstateVideo
     },
     {
       id: "product-brand",
       title: "Product & Brand",
       description: "High-end product visualization and brand storytelling. We bring products to life through photorealistic CGI and creative animation.",
       features: ["Product Rendering", "Brand Films", "Interactive Configurator", "Packaging Visualization"],
-      video: productVideo,
-      poster: productPoster
+      video: productVideo
     },
     {
       id: "media-entertainment",
       title: "Media & Entertainment",
       description: "Creating immersive worlds and visual effects for film, television, and gaming. Our dedicated team of artists push the boundaries of digital content creation.",
       features: ["Environment Design", "Matte Painting", "VFX", "Cinematics"],
-      video: mediaVideo,
-      poster: mediaPoster
+      video: mediaVideo
     }
   ];
 
@@ -89,14 +79,12 @@ const Services = () => {
                 viewport={{ once: true, margin: "-50px" }}
                 transition={{ duration: 0.8 }}
               >
-                <div className="service-video-container" style={{ backgroundColor: '#000' }}>
+                <div className="service-video-container">
                   <video 
                     autoPlay 
                     loop 
                     muted 
                     playsInline 
-                    preload="metadata"
-                    poster={service.poster}
                     className="service-video" 
                     src={service.video}
                   ></video>

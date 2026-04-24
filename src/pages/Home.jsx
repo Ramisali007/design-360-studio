@@ -59,14 +59,12 @@ const Home = () => {
             transition={{ delay: 0.2, duration: 1 }}
           >
             <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: '1rem', textTransform: 'uppercase', letterSpacing: '1px', textAlign: 'left' }}>Our Global Showreel</p>
-            <div style={{ borderRadius: '4px', overflow: 'hidden', boxShadow: '0 20px 40px rgba(0,0,0,0.05)', backgroundColor: '#000' }}>
+            <div style={{ borderRadius: '4px', overflow: 'hidden', boxShadow: '0 20px 40px rgba(0,0,0,0.05)' }}>
               <video 
               autoPlay 
               loop 
               muted 
               playsInline 
-              preload="auto"
-              poster={archImg}
               className="hero-video" 
               src={heroVideo}
             ></video>
